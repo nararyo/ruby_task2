@@ -1,4 +1,5 @@
-require './task.rb'
+require './character.rb'
+require './hero.rb'
 require './monster.rb'
 
 hero = Hero.new(name:"パパス", stamina:300, offense:150, defense:120)

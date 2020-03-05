@@ -1,2 +1,2 @@
-class Monster < Hero
+class Monster < Character
 end
