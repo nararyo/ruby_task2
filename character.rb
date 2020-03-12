@@ -9,7 +9,7 @@ class Character
     @defense = params[:defense]
   end
 
-  def attack(target:)
+  def attack(target)
 
     damage = @offense - target.defense
     target.stamina -= damage
