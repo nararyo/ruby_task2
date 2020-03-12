@@ -20,11 +20,5 @@ class Character
 
   end
 
-  def spell(target:, spell:)
-
-    damage = Spell.spell.damage
-    target.stamina -= damage
-    #puts "#{@name}は#{spell.name}を唱えた！"
-    puts "#{target.name}に#{damage}のダメージ！"
-  end
+  
 end
